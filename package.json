@@ -7,8 +7,7 @@
 		"build:dev": "gulp build",
 		"build:prod": "gulp build --prod",
 		"predeploy": "gulp build --prod",
-		"deploy": "gh-pages -d build",
-		"squoosh": "gulp squoosh"
+		"deploy": "gh-pages -d build"
 	},
 	"repository": {
 		"type": "git",
@@ -68,7 +67,7 @@
 		"gulp-sass": "^5.1.0",
 		"gulp-sass-glob": "^1.1.0",
 		"gulp-sourcemaps": "^3.0.0",
-		"gulp-squoosh": "^0.9.0",
+		"gulp-squoosh": "0.9.0",
 		"gulp-svg-sprite": "^1.5.0",
 		"gulp-uglify": "^3.0.2",
 		"husky": "^7.0.4",
@@ -88,10 +87,12 @@
 	},
 	"dependencies": {
 		"gsap": "3.12.2",
+		"gulp-sharp-responsive": "0.4.1",
 		"imask": "7.1.3",
 		"jquery": "3.7.1",
 		"parsleyjs": "2.9.2",
 		"reset-css": "^5.0.1",
+		"sharp": "0.33.2",
 		"swiper": "9.4.1",
 		"vanilla-lazyload": "^17.6.1"
 	}
